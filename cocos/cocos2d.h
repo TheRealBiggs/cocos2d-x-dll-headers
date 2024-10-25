@@ -32,6 +32,14 @@ THE SOFTWARE.
 // 00   03 08 00
 #define COCOS2D_VERSION 0x00031401
 
+// A few defines required because of our header changes
+typedef char GLchar;
+#define GL_CONSTANT_ALPHA 0x8003
+#define GL_ONE_MINUS_CONSTANT_ALPHA 0x8004
+#define GL_INCR_WRAP 0x8507
+#define GL_DECR_WRAP 0x8508
+#define GL_STATIC_DRAW 0x88e4
+
 //
 // all cocos2d include files
 //

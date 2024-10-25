@@ -200,12 +200,12 @@ public:
     std::string _string;
 };
 
-struct StringCompare : public std::binary_function<__String *, __String *, bool> {
-    public:
-        bool operator() (__String * a, __String * b) const {
-            return strcmp(a->getCString(), b->getCString()) < 0;
-        }
-};
+//struct StringCompare : public std::binary_function<__String *, __String *, bool> {
+//    public:
+//        bool operator() (__String * a, __String * b) const {
+//            return strcmp(a->getCString(), b->getCString()) < 0;
+//        }
+//};
 
 #define StringMake(str) String::create(str)
 #define ccs             StringMake
