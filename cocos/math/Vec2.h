@@ -766,6 +766,4 @@ NS_CC_MATH_END
  @}
  */
 
-#include "math/Vec2.inl"
-
 #endif // MATH_VEC2_H
